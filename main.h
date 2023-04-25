@@ -70,8 +70,8 @@ va_list list, char buffer[], int flags, int width, int precision, int size);
  */
 struct fmt
 {
-	char fmt;
-	int (*fn)(va_list, char[], int, int, int, int);
+char fmt;
+int (*fn)(va_list, char[], int, int, int, int);
 };
 
 
