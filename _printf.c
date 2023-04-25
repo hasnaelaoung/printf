@@ -63,6 +63,3 @@ if (*buff_ind > 0)
 	write(1, &buffer[0], *buff_ind);
 *buff_ind = 0;
 }
-return count;
-}
-
